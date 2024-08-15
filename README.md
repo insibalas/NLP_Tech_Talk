@@ -271,7 +271,7 @@ The script will print the document-term matrix as a NumPy array and the list of 
 * scikit-learn CountVectorizer: [link to scikit-learn CountVectorizer documentation]
 * Text Feature Extraction for NLP: [link to a relevant resource on text feature extraction]
 
-This code provides a basic demonstration of feature extraction with CountVectorizer. You can explore other feature extraction techniques like TF-IDF or word embeddings for more advanced NLP applications.
+This code provides a basic demonstration of feature extraction with CountVectorizer. You can explore other feature extraction techniques like TF-IDF or word embeddings for more advanced NLP applications.**
 ---------------------------------------------------------------------------------------------------------------------
 This README provides a basic explanation of the script and its functionality. You can further enhance it by adding:
 
