@@ -1,5 +1,5 @@
 # NLP_Tech_Talk
-
+# Program 1
 ## English to Tamil & Hindi Translator with Python
 
 This repository contains a Python script that translates English text to Tamil and Hindi using Google Translate API.
@@ -42,6 +42,51 @@ The script includes an example demonstrating how to use the functions:
 This script uses Google Translate API for translation.  Please remember Google Translate's limitations and potential inaccuracies, especially for complex or nuanced text.
 
 **Feel free to modify the script to translate between other languages supported by Google Translate API.** You can find information about supported languages in the Google Translate documentation: [https://cloud.google.com/translate/docs](https://cloud.google.com/translate/docs)
+
+----------------------------------------------------------------------------------------------------------------------
+
+# Program 2
+## Text Processing with NLTK - Basic Analysis
+
+This repository contains Python code that demonstrates basic text processing techniques using the Natural Language Toolkit (NLTK) library.
+
+**Functionality:**
+
+* The script performs tokenization, stop word removal, and frequency analysis on a sample corpus of sentences.
+* It showcases how to break text into words, eliminate common words (stop words), and calculate word frequencies.
+
+**How it Works:**
+
+1. The script imports necessary NLTK functionalities for tokenization, n-grams, and frequency distribution.
+2. It defines a sample corpus containing several sentences.
+3. The code tokenizes each sentence, breaking it down into individual words.
+4. Words are converted to lowercase for a consistent analysis.
+5. Stop words (common words like "the" or "a") are removed using NLTK's stopword list.
+6. Word frequencies are calculated using the `FreqDist` function.
+7. The code can be further extended to analyze n-grams (sequences of words) or perform other text processing tasks.
+
+**Running the Script:**
+
+1. Save the code as a Python file (e.g., `text_analysis.py`).
+2. Make sure you have NLTK installed (`pip install nltk`).
+3. Run the script from the command line: `python text_analysis.py`
+
+**Output:**
+
+The script will print the following:
+
+* Number of unique words in the corpus (after stop word removal).
+* Most common words in the corpus (top 10 by frequency).
+
+**Note:**
+
+This is a basic example to illustrate fundamental NLP concepts. You can modify it to explore different functionalities of NLTK, including analyzing n-grams, stemming/lemmatization, or other text processing tasks.
+
+**Additional Resources:**
+
+* NLTK Documentation: [link to NLTK documentation]
+* NLTK Stopwords: [link to NLTK stopwords documentation]
+
 
 This README provides a basic explanation of the script and its functionality. You can further enhance it by adding:
 
