@@ -136,7 +136,7 @@ The script will print:
 * NLTK Documentation: [link to NLTK documentation]
 * NLTK N-grams: [link to NLTK ngrams documentation]
 
-This code provides a basic example of n-gram analysis. You can further explore building language models or using n-grams for other NLP tasks.
+
 ---------------------------------------------------------------------------------------------------------------------
 # Program4
 
