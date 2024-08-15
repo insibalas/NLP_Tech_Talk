@@ -138,6 +138,140 @@ The script will print:
 
 This code provides a basic example of n-gram analysis. You can further explore building language models or using n-grams for other NLP tasks.
 ---------------------------------------------------------------------------------------------------------------------
+# Program4
 
+## Stop Word Removal with NLTK
+
+This repository contains Python code demonstrating stop word removal from a text corpus using the Natural Language Toolkit (NLTK) library.
+
+**Functionality:**
+
+* The script removes stop words (common words like "the," "a," or "is") from a list of tokens (individual words).
+* Stop words often carry little meaning and can be filtered out for further analysis.
+
+**How it Works:**
+
+1. The script imports NLTK's stopword functionality and downloads the English stopword list (if not already downloaded).
+2. It defines a list of tokens, which could be words from a sentence or document.
+3. The code creates a set of stop words using NLTK's pre-defined list of English stop words.
+4. It iterates through the token list and filters out any word that is present in the stop word set.
+5. The script then prints the filtered list of tokens, which no longer contains stop words.
+
+**Running the Script:**
+
+1. Save the code as a Python file (e.g., `stopword_removal.py`).
+2. Make sure you have NLTK installed (`pip install nltk`).
+3. Run the script from the command line: `python stopword_removal.py`
+
+**The first time you run the script, it might download the stopwords list from the internet. This is a one-time download.**
+
+**Output:**
+
+The script will print the list of tokens after stop words have been removed.
+
+**Importance of Stop Word Removal:**
+
+* Stop words contribute little to the meaning of a sentence.
+* Removing them helps focus on more content-rich words and improve analysis accuracy in sentiment analysis, topic modeling, or other NLP tasks.
+
+**Additional Resources:**
+
+* NLTK Documentation: [link to NLTK documentation]
+* NLTK Stopwords: [link to NLTK stopwords documentation] 
+
+This code provides a basic demonstration of stop word removal. You can integrate it into your NLP workflows to improve the quality of your text analysis. 
+--------------------------------------------------------------------------------------------------------------------------
+# Progream 5
+
+## Text Normalization with Stemming (Porter Stemmer)
+
+This repository contains Python code that explores stemming, a text normalization technique, using the Porter Stemmer from NLTK.
+
+**Functionality:**
+
+* The script applies Porter Stemming to a list of tokens (individual words) to reduce them to their base forms.
+* Stemming aims to group related words with similar meanings by removing suffixes.
+
+**How it Works:**
+
+1. The script imports the Porter Stemmer from NLTK's stemming functionalities.
+2. It assumes you have already filtered out stop words from the text (as demonstrated in Program 4).
+3. The code creates a Porter Stemmer object, which is used to perform stemming.
+4. It iterates through the list of filtered tokens and applies the stemmer to each word.
+5. Stemming reduces words to their base forms, for example, "running" becomes "run" and "jumps" becomes "jump."
+6. The script then prints the list of stemmed words.
+
+**Running the Script:**
+
+1. Save the code as a Python file (e.g., `text_normalization.py`).
+2. Make sure you have NLTK installed (`pip install nltk`).
+3. Run the script from the command line: `python text_normalization.py`
+
+**Note:**
+
+* Stemming is an aggressive technique and might not always produce the most accurate base form.
+* An alternative approach is lemmatization, which aims to reduce words to their dictionary form while preserving their meaning.
+
+**Output:**
+
+The script will print the list of words after applying Porter Stemming.
+
+**Benefits of Text Normalization:**
+
+* Normalization techniques like stemming can help improve the accuracy of NLP tasks by reducing word variations and focusing on the core meaning.
+* It can be useful for tasks like information retrieval, text clustering, or sentiment analysis.
+
+**Additional Resources:**
+
+* NLTK Documentation: [link to NLTK documentation]
+* NLTK Stemming: [link to NLTK stemming documentation]
+
+This code provides a basic example of text normalization using Porter Stemming. Consider exploring lemmatization or other normalization techniques for your specific NLP needs.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+# Program 6
+
+## Feature Extraction with CountVectorizer (Scikit-learn)
+
+This repository contains Python code that demonstrates feature extraction from text data using CountVectorizer from scikit-learn.
+
+**Functionality:**
+
+* The script utilizes CountVectorizer to convert a collection of text documents into a numerical representation suitable for machine learning algorithms.
+* CountVectorizer builds a vocabulary of unique words and creates a document-term matrix, where each cell represents the word count for a specific document.
+
+**How it Works:**
+
+1. The script imports CountVectorizer from scikit-learn's feature extraction library.
+2. It defines a sample list of text documents (sentences or paragraphs).
+3. A CountVectorizer object is created, which analyzes the text and builds a vocabulary of unique words.
+4. The `fit_transform` method is called on the vectorizer. It analyzes the documents, builds the vocabulary, and transforms the text into a numerical matrix.
+5. This matrix represents the document-term counts, where rows represent documents and columns represent unique words.
+6. The code prints the resulting matrix and the feature names (unique words in the vocabulary).
+
+**Running the Script:**
+
+1. Save the code as a Python file (e.g., `feature_extraction.py`).
+2. Make sure you have scikit-learn installed (`pip install scikit-learn`).
+3. Run the script from the command line: `python feature_extraction.py`
+
+**Output:**
+
+The script will print the document-term matrix as a NumPy array and the list of unique words used as features.
+
+**Understanding Feature Extraction:**
+
+* Feature extraction is a crucial step in machine learning for text analysis tasks.
+* It transforms text data into a numerical representation that algorithms can understand and use for prediction or classification.
+* CountVectorizer is a simple and effective method for extracting features based on word counts.
+
+**Additional Resources:**
+
+* scikit-learn CountVectorizer: [link to scikit-learn CountVectorizer documentation]
+* Text Feature Extraction for NLP: [link to a relevant resource on text feature extraction]
+
+This code provides a basic demonstration of feature extraction with CountVectorizer. You can explore other feature extraction techniques like TF-IDF or word embeddings for more advanced NLP applications.
+---------------------------------------------------------------------------------------------------------------------
 This README provides a basic explanation of the script and its functionality. You can further enhance it by adding:
 
