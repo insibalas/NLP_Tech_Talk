@@ -1,5 +1,4 @@
 # NLP_Tech_Talk
-Absolutely, here's a README.md file based on your provided Python code:
 
 ## English to Tamil & Hindi Translator with Python
 
@@ -40,7 +39,7 @@ The script includes an example demonstrating how to use the functions:
 
 **Disclaimer:**
 
-This script uses Google Translate API for translation.  Be aware of Google Translate's limitations and potential inaccuracies, especially for complex or nuanced text.
+This script uses Google Translate API for translation.  Please remember Google Translate's limitations and potential inaccuracies, especially for complex or nuanced text.
 
 **Feel free to modify the script to translate between other languages supported by Google Translate API.** You can find information about supported languages in the Google Translate documentation: [https://cloud.google.com/translate/docs](https://cloud.google.com/translate/docs)
 
