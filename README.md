@@ -86,7 +86,57 @@ This is a basic example to illustrate fundamental NLP concepts. You can modify i
 
 * NLTK Documentation: [link to NLTK documentation]
 * NLTK Stopwords: [link to NLTK stopwords documentation]
+   -----------------------------------------------------------------------------------------------------------------------
+#Program 3
 
+## N-Gram Analysis with NLTK
+
+This repository contains Python code that explores n-gram generation and frequency analysis for a sample corpus using the Natural Language Toolkit (NLTK) library.
+
+**Functionality:**
+
+* The script extracts unigrams (single words), bigrams (two-word sequences), and trigrams (three-word sequences) from each sentence in a corpus.
+* It calculates the frequency distribution of bigrams to analyze word co-occurrence patterns.
+
+**How it Works:**
+
+1. The script leverages NLTK functions for tokenization and n-gram generation.
+2. It iterates through each sentence in the corpus and generates unigrams, bigrams, and trigrams using the `ngrams` function.
+3. N-grams represent sequences of words that can provide insights into language patterns and word co-occurrence.
+4. The code calculates the frequency distribution of bigrams using `FreqDist`, indicating how often each bigram appears in the corpus.
+
+**Running the Script:**
+
+1. Save the code as a Python file (e.g., `ngram_analysis.py`).
+2. Make sure you have NLTK installed (`pip install nltk`).
+3. Run the script from the command line: `python ngram_analysis.py`
+
+**Output:**
+
+The script will print:
+
+* The total number of unigrams, bigrams, and trigrams extracted from the corpus.
+* A list of all generated unigrams, bigrams, and trigrams.
+* The frequency distribution of bigrams, showing the number of times each bigram appears.
+
+**Understanding N-Grams:**
+
+* Unigrams represent single words in the text.
+* Bigrams capture the relationship between two consecutive words.
+* Trigrams consider the relationship between three consecutive words.
+
+**Applications of N-Grams:**
+
+* N-gram analysis helps understand language patterns and word co-occurrence.
+* It finds applications in tasks like language modeling, speech recognition, and machine translation.
+
+**Additional Resources:**
+
+* NLTK Documentation: [link to NLTK documentation]
+* NLTK N-grams: [link to NLTK ngrams documentation]
+
+This code provides a basic example of n-gram analysis. You can further explore building language models or using n-grams for other NLP tasks.
+---------------------------------------------------------------------------------------------------------------------
 
 This README provides a basic explanation of the script and its functionality. You can further enhance it by adding:
 
