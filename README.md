@@ -2,7 +2,7 @@
 # Program 1
 ## English to Tamil & Hindi Translator with Python
 
-This repository contains a Python script that translates English text to Tamil and Hindi using Google Translate API.
+This code  contains a Python script that translates English text to Tamil and Hindi using Google Translate API.
 
 **Functionality:**
 
@@ -48,7 +48,7 @@ This script uses Google Translate API for translation.  Please remember Google T
 # Program 2
 ## Text Processing with NLTK - Basic Analysis
 
-This repository contains Python code that demonstrates basic text processing techniques using the Natural Language Toolkit (NLTK) library.
+This code  contains Python code that demonstrates basic text processing techniques using the Natural Language Toolkit (NLTK) library.
 
 **Functionality:**
 
@@ -92,7 +92,7 @@ This is a basic example to illustrate fundamental NLP concepts. You can modify i
 
 ## N-Gram Analysis with NLTK
 
-This repository contains Python code that explores n-gram generation and frequency analysis for a sample corpus using the Natural Language Toolkit (NLTK) library.
+This code contains Python code that explores n-gram generation and frequency analysis for a sample corpus using the Natural Language Toolkit (NLTK) library.
 
 **Functionality:**
 
@@ -142,7 +142,7 @@ This code provides a basic example of n-gram analysis. You can further explore b
 
 ## Stop Word Removal with NLTK
 
-This repository contains Python code demonstrating stop word removal from a text corpus using the Natural Language Toolkit (NLTK) library.
+This code  contains Python code demonstrating stop word removal from a text corpus using the Natural Language Toolkit (NLTK) library.
 
 **Functionality:**
 
@@ -185,7 +185,7 @@ This code provides a basic demonstration of stop word removal. You can integrate
 
 ## Text Normalization with Stemming (Porter Stemmer)
 
-This repository contains Python code that explores stemming, a text normalization technique, using the Porter Stemmer from NLTK.
+This code  contains Python code that explores stemming, a text normalization technique, using the Porter Stemmer from NLTK.
 
 **Functionality:**
 
@@ -234,7 +234,7 @@ This code provides a basic example of text normalization using Porter Stemming. 
 
 ## Feature Extraction with CountVectorizer (Scikit-learn)
 
-This repository contains Python code that demonstrates feature extraction from text data using CountVectorizer from scikit-learn.
+This code  contains Python code that demonstrates feature extraction from text data using CountVectorizer from scikit-learn.
 
 **Functionality:**
 
@@ -270,8 +270,55 @@ The script will print the document-term matrix as a NumPy array and the list of 
 
 * scikit-learn CountVectorizer: [link to scikit-learn CountVectorizer documentation]
 * Text Feature Extraction for NLP: [link to a relevant resource on text feature extraction]
-
 This code provides a basic demonstration of feature extraction with CountVectorizer. You can explore other feature extraction techniques like TF-IDF or word embeddings for more advanced NLP applications.**
 ---------------------------------------------------------------------------------------------------------------------
-This README provides a basic explanation of the script and its functionality. You can further enhance it by adding:
+# Program 7
+
+**Text Analysis and Recommendation for Food Reviews**
+
+## Sentence completion using N-gram: Recommend the top 3 words to complete the given sentence using N-gram language model. The goal is to demonstrate the relevance of recommended words based on the occurrence of Bigram within the corpus. Use all the instances in the dataset as a training corpus. Test Sentence: “ I like _____ ”
+
+   ### Adapting the Code for Food Reviews
+
+### Core principles 
+
+* **Data Cleaning:** Remove food-specific stop words (e.g., "food", "dish", "restaurant").
+* **Feature Engineering:** Consider creating features related to food items, flavors, and sentiment.
+* **Sentiment Analysis:** Incorporate sentiment analysis techniques to classify reviews as positive, negative, or neutral.
+* **Topic Modeling:** Identify common themes or topics in food reviews (e.g., cuisine, price, service).
+
+This code  contains Python code that explores text analysis, bigram generation, and recommendation specifically tailored for  reviews. It utilizes Natural Language Toolkit (NLTK) and scikit-learn libraries for text preprocessing, feature extraction, and analysis.
+
+**Key Features:**
+
+* **Data Preprocessing:** Handles food review data, including cleaning and tokenization.
+* **Bigram Analysis:** Identifies frequent word pairs (bigrams) in food reviews.
+* **Word Recommendation:** Suggests relevant words based on bigram frequencies.
+
+
+**How it Works:**
+
+* Loads a CSV file containing food reviews.
+* Preprocesses text data, including cleaning and tokenization.
+* Generates bigrams and calculates their frequencies.
+* Implements a function to recommend words based on bigram frequencies.
+* Calculates perplexity as a measure of model performance (optional).
+
+
+**Running the Script:**
+
+* Save the code as a Python file (e.g., `food_review_analysis.py`).
+* Ensure necessary libraries are installed (`pandas`, `nltk`, `scikit-learn`, `matplotlib`).
+* Replace the placeholder CSV file with your food review dataset.
+* Run the script from the command line: `python food_review_analysis.py`
+
+**Output:**
+
+The script will provide insights into food reviews, including:
+
+* Frequent bigrams
+* Word recommendations
+
+
+
 
